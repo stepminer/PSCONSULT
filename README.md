@@ -17,7 +17,7 @@ Welcome to **PSCONSULT**, the premier consultancy for navigating the complexitie
 ## 🔗 Get Started  
 Discover how PSCONSULT can help you achieve your regulatory and environmental goals.  
 
-- 📧 **Contact Us**: info@psconsult.com  
+- 📧 **Contact Us**: stepminer@gmail.com  
 - 🌐 **Website**: [ps-consults.com](https://ps-consults.com)  
 
 _Trusted expertise. Sustainable solutions._
