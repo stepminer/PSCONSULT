@@ -1,13 +1,13 @@
 # PSCONSULT
- # PSCONSULT: Trusted Crop Protection Regulatory & Environmental Consultant Canada  
+ # PSCONSULT: Senior Pesticide Regulatory & Environmental Consultant Canada  
 
-Welcome to **PSCONSULT**, the premier consultancy for navigating the complexities of crop protection regulations and environmental compliance. With over 25 years of expertise in regulatory science and sustainable development, PSCONSULT provides tailored solutions to support your projects' success in Canada and beyond.  
+Welcome to **PSCONSULT**, the premier consultant for navigating the complexities of pesticide regulations and environmental compliance. With over 25 years of expertise in regulatory science and sustainable development, PSCONSULT provides tailored solutions to support your projects' success in Canada and beyond.  
 
 ## 🌱 What We Do  
-- **Regulatory Consulting**: Expert guidance on pesticide regulations, PMRA compliance, and crop protection standards.  
+- **Regulatory Consulting**: Expert guidance on pesticide regulations in Canada, PMRA compliance, and crop protection standards.  
 - **Environmental Assessments**: Detailed evaluations to ensure sustainability and legal compliance.  
-- **Scientific Expertise**: Solutions rooted in plant science, phytopathology, and epidemiology.  
-- **Custom Software**: Tools like **EcoPheno** to streamline environmental and regulatory data management. We deliver custom Shiny Apps. 
+- **Scientific Expertise**: Solutions rooted in crop science, phytopathology, epidemiology & Statistics.  
+- **Custom Software**: Tools like **EcoPheno**& **Shiny Apps** to streamline environmental and regulatory data management. We deliver custom Shiny Apps. 
 
 ## 🏆 Why Choose PSCONSULT?  
 - Proven track record in delivering impactful results.  
