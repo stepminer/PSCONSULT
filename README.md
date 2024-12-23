@@ -21,3 +21,5 @@ Discover how PSCONSULT can help you achieve your regulatory and environmental go
 - 🌐 **Website**: [ps-consults.com](https://ps-consults.com)  
 
 _Trusted expertise. Sustainable solutions._
+
+**Free Sample Report** : https://github.com/stepminer/PSCONSULT/blob/main/Client_Report_001.html
