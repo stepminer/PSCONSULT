@@ -1,7 +1,7 @@
 # PSCONSULT
  # PSCONSULT: Senior Pesticide Regulatory & Environmental Consultant Canada  
 ![My Image](https://github.com/stepminer/PSCONSULT/blob/main/distribution_map.png)
-Welcome to **PSCONSULT**, the premier consultant for navigating the complexities of pesticide regulations and environmental compliance. With over 25 years of expertise in regulatory science and sustainable development, PSCONSULT provides tailored solutions to support your projects' success in Canada and beyond.  
+Welcome to **PSCONSULT**, pesticide regulatory consultant the premier services for navigating the complexities of pesticide regulations and environmental compliance. With over 25 years of expertise in regulatory science and sustainable development, PSCONSULT provides tailored solutions to support your projects' success in Canada and beyond.  
 
 ## 🌱 What We Do  
 - **Regulatory Consulting**: Expert guidance on pesticide regulations in Canada, PMRA compliance, and crop protection standards.  
