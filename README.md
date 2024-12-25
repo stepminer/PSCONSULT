@@ -22,4 +22,4 @@ Discover how PSCONSULT can help you achieve your regulatory and environmental go
 
 _Trusted expertise. Sustainable solutions._
 
-**Free Sample Report** : https://github.com/stepminer/PSCONSULT/blob/main/Client_Report_001.html
+**Download a Free Sample Report** : https://github.com/stepminer/PSCONSULT/blob/main/Client_Report_001.html
