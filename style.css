@@ -17,6 +17,13 @@ p {
     margin-bottom: 15px; /* Spacing after paragraphs */
 }
 
+li {
+    font-size: 18px; /* Medium font size for better readability */
+    line-height: 1.6; /* Adds space between lines */
+    margin-bottom: 15px; /* Spacing after paragraphs */
+}
+
+
 /* Header Styling */
 header {
     background-color: rgba(42, 127, 42, 0.9); /* Semi-transparent green for the header */
