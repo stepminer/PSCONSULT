@@ -1,0 +1,17 @@
+# llms.txt
+> PS-CONSULT provides strategic regulatory consulting services, showcasing expertise through service offerings, project examples, and direct contact options.
+
+## Overview
+- / — Homepage introducing PS Consulting and its value proposition.
+
+## Company Info
+- /about — Background on the company, its mission, and leadership.
+
+## Services
+- /services — Detailed descriptions of consulting services offered.
+
+## Portfolio
+- /example-projects — Case studies and examples of past consulting projects.
+
+## Contact
+- /contact — Contact form and communication details for inquiries.
