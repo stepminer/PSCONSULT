@@ -20,8 +20,69 @@
   <meta name="twitter:description" content="Canadian market entry with confidence: CFIA/PMRA compliance, labels, HACCP/PCP, and approvals.">
   <link rel="alternate" hreflang="en-CA" href="https://ps-consults.com/agrireg/services">
 
+  <!-- Preload hero image for better LCP -->
+  <link rel="preload" as="image" href="AGRIREG%20demo%20page.png" imagesizes="(max-width: 900px) 100vw, 45vw">
+
   <!-- External stylesheet (modern, 2‑column max layout) -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Minimal page-scoped styles to place/size hero image professionally -->
+  <style>
+    :root{
+      --hero-max-img: 640px;       /* desktop image cap */
+      --hero-min-img: 280px;       /* mobile minimum */
+      --hero-gap: clamp(1rem, 3vw, 3rem);
+      --card-radius: 14px;
+      --ring: 1px solid color-mix(in oklab, #ffffff 10%, transparent);
+      --shadow-lg: 0 12px 40px rgba(0,0,0,.18), 0 4px 14px rgba(0,0,0,.12);
+      --glow: drop-shadow(0 0 24px rgba(80,160,255,.25)) drop-shadow(0 0 48px rgba(120,200,255,.15));
+    }
+    .hero.ai-glow .container{
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+      gap: var(--hero-gap);
+      align-items: center;
+    }
+    @media (max-width: 900px){
+      .hero.ai-glow .container{
+        grid-template-columns: 1fr;
+      }
+      .hero__media{ order: 2; } /* text first on mobile */
+    }
+    .hero__content :where(.hero__title,.hero__subtitle){ margin: 0 0 .75rem 0; }
+    .hero__media{
+      justify-self: end;
+      width: clamp(var(--hero-min-img), 45vw, var(--hero-max-img));
+    }
+    .hero__figure{
+      margin: 0;
+      position: relative;
+      isolation: isolate;
+    }
+    .hero__frame{
+      aspect-ratio: 16 / 10;             /* sleek product shot aspect */
+      width: 100%;
+      border-radius: var(--card-radius);
+      overflow: clip;
+      background:
+        radial-gradient(120% 120% at 90% 10%, rgba(0,170,255,.10), transparent 60%),
+        linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,0));
+      border: var(--ring);
+      box-shadow: var(--shadow-lg);
+      backdrop-filter: saturate(110%) contrast(102%);
+    }
+    .hero__image{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: var(--glow);
+      transform: translateZ(0);          /* hint GPU */
+    }
+    .sr-only{
+      position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+    }
+  </style>
 </head>
 <body>
   <nav class="breadcrumbs" aria-label="Breadcrumb">
@@ -30,15 +91,41 @@
 
   <header class="hero ai-glow">
     <div class="container">
-      <h1 class="hero__title">AGRIREG™ Services by PS‑Consults</h1>
-      <p class="hero__subtitle">
-        AI‑assisted Canadian compliance for agri‑food and CROP PROTECTION—faster pathways, fewer remands, audit‑ready launches.
-      </p>
-      <div class="badges">
-        <span class="pill">CFIA • SFCR • PCP/HACCP</span>
-        <span class="pill">PMRA • TGAI/EUP • PPIP</span>
-        <span class="pill">Bilingual labels/SDS</span>
-        <span class="pill">Import & licensing</span>
+      <div class="hero__content">
+        <h1 class="hero__title">AGRIREG™ Services by PS‑Consults</h1>
+        <p class="hero__subtitle">
+          AI‑assisted Canadian compliance for agri‑food and CROP PROTECTION—faster pathways, fewer remands, audit‑ready launches.
+        </p>
+        <div class="badges">
+          <span class="pill">CFIA • SFCR • PCP/HACCP</span>
+          <span class="pill">PMRA • TGAI/EUP • PPIP</span>
+          <span class="pill">Bilingual labels/SDS</span>
+          <span class="pill">Import & licensing</span>
+        </div>
+      </div>
+
+      <!-- Professionally placed/sized demo image -->
+      <div class="hero__media">
+        <figure class="hero__figure">
+          <div class="hero__frame">
+            <!-- If you can export a WebP too, add a <source> above for better perf -->
+            <!--
+            <picture>
+              <source srcset="agrireg-demo-page.webp" type="image/webp" sizes="(max-width: 900px) 100vw, 45vw">
+              <img ...>
+            </picture>
+            -->
+            <img
+              class="hero__image"
+              src="AGRIREG%20demo%20page.png"
+              alt="AGRIREG demo dashboard showing AI‑assisted Canadian compliance workflow"
+              decoding="async"
+              loading="eager"
+              fetchpriority="high"
+              sizes="(max-width: 900px) 100vw, 45vw">
+          </div>
+          <figcaption class="sr-only">AGRIREG demo interface: AI‑assisted pathway mapping and submission checks.</figcaption>
+        </figure>
       </div>
     </div>
   </header>
@@ -203,6 +290,6 @@
   }
   </script>
 </body>
-
 </html>
+
 
