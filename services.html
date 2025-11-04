@@ -1,143 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the range of regulatory and consulting services provided by Patrick Prézeau Stephenson.">
-    <meta name="keywords" content="Regulatory Consulting, Research Plans, Crop Protection, PMRA,  AI Regulatory Chatbot, Regulatory Compliance, NAFTA PCT Project,Senior Scientific Evaluator,Value Expert, Compliance, Canada, PMRA, Pesticides, Herbicides, Fungicides, Insecticides, Antimicrobials, Biorationals, Biological Control, IPM">
-    <meta name="author" content="Patrick Prézeau Stephenson">
-    <title>Services - Patrick Prézeau Stephenson</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the range of regulatory and consulting services provided by Patrick Prézeau Stephenson.">
+  <meta name="keywords" content="Regulatory Consulting, Research Plans, Crop Protection, PMRA,  AI Regulatory Chatbot, Regulatory Compliance, NAFTA PCT Project,Senior Scientific Evaluator,Value Expert, Compliance, Canada, PMRA, Pesticides, Herbicides, Fungicides, Insecticides, Antimicrobials, Biorationals, Biological Control, IPM">
+  <meta name="author" content="Patrick Prézeau Stephenson">
+  <title>Services - Patrick Prézeau Stephenson</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Minimal styles to position and size SHINY.png just before chatbot -->
+  <style>
+    .shiny-showcase {
+      padding: clamp(12px, 2vw, 28px) 0;
+    }
+    .shiny-figure {
+      margin: 0;
+      position: relative;
+      isolation: isolate;
+      border-radius: 14px;
+      overflow: clip;
+      /* Subtle glass/tech look frame */
+      background:
+        radial-gradient(120% 120% at 90% 10%, rgba(0,170,255,.10), transparent 60%),
+        linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,0));
+      border: 1px solid rgba(255,255,255,.08);
+      box-shadow: 0 12px 40px rgba(0,0,0,.18), 0 4px 14px rgba(0,0,0,.12);
+    }
+    .shiny-image {
+      display: block;
+      width: min(100%, 1200px); /* responsive with a sensible desktop cap */
+      height: auto;
+      object-fit: cover;
+    }
+    /* Optional: keep it left-aligned; remove if you prefer centered within a container */
+    .shiny-wrapper {
+      max-width: 1200px;
+      margin: 0; /* left-aligned */
+    }
+
+    @media (max-width: 768px) {
+      .shiny-image { width: 100%; }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="PSLOGO_25.png" alt="Logo">
-        </div>
-        <nav>
-            <ul>
-				<li><a href="AGRIREG.html" class="nav-cta" title="AGRIREG — Canadian Agri‑Food & PMRA Compliance"><img src="ai-agrireg-icon.svg" alt="" aria-hidden="true" style="width:1.1em;height:1.1em;vertical-align:-0.15em;margin-right:.4em">AGRIREG™</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html" class="active">Services</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="logo">
+      <img src="PSLOGO_25.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="AGRIREG.html" class="nav-cta" title="AGRIREG — Canadian Agri‑Food & PMRA Compliance"><img src="ai-agrireg-icon.svg" alt="" aria-hidden="true" style="width:1.1em;height:1.1em;vertical-align:-0.15em;margin-right:.4em">AGRIREG™</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <section class="hero">
-        <div class="hero-text">
-            <h1>Our Services</h1>
-            <p>Professional regulatory consulting and scientific expertise tailored to your needs.</p>
-        </div>
-    </section>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Our Services</h1>
+      <p>Professional regulatory consulting and scientific expertise tailored to your needs.</p>
+    </div>
+  </section>
 
-    <section class="services">
-        <h2>What We Offer</h2>
-        <div class="service-list">
-            <div class="service-item">
-                <h3>Regulatory Consulting</h3>
-                <p>Expert guidance on navigating complex regulatory landscapes, including crop protection regulations and PMRA compliance.</p>
-            </div>
-            <div class="service-item">
-                <h3>Research Plan Development</h3>
-                <p>Design and supervision of comprehensive research plans to meet industry and regulatory standards.</p>
-            </div>
-            <div class="service-item">
-                <h3>Software Solutions</h3>
-                <p>Custom solutions like EcoPheno & Custom Shiny Apps for streamlining environmental & Value assessments and data management.</p>
-            </div>
-            <div class="service-item">
-                <h3>International Leadership</h3>
-                <p>Strategic project management for global initiatives such as the NAFTA PCT Project.</p>
-            <p>Design, manage, and optimize Canadian and global crop protection portfolios—accelerating registrations, de‑risking compliance, and maximizing ROI across the product lifecycle. </p>
-			</div>
-        </div>
-    </section>
+  <section class="services">
+    <h2>What We Offer</h2>
+    <div class="service-list">
+      <div class="service-item">
+        <h3>Regulatory Consulting</h3>
+        <p>Expert guidance on navigating complex regulatory landscapes, including crop protection regulations and PMRA compliance.</p>
+      </div>
+      <div class="service-item">
+        <h3>Research Plan Development</h3>
+        <p>Design and supervision of comprehensive research plans to meet industry and regulatory standards.</p>
+      </div>
+      <div class="service-item">
+        <h3>Software Solutions</h3>
+        <p>Custom solutions like EcoPheno & Custom Shiny Apps for streamlining environmental & Value assessments and data management.</p>
+      </div>
+      <div class="service-item">
+        <h3>International Leadership</h3>
+        <p>Strategic project management for global initiatives such as the NAFTA PCT Project.</p>
+        <p>Design, manage, and optimize Canadian and global crop protection portfolios—accelerating registrations, de‑risking compliance, and maximizing ROI across the product lifecycle. </p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Second Section with Improved Content Structure -->
-    <section class="services">
-        <h2>Comprehensive Solutions for Complex Challenges</h2>
-        <p>My services are designed to address the unique needs of clients across industries, ensuring regulatory compliance and sustainable growth:</p>
-        <ul>
-            <li><strong>Regulatory Consulting:</strong> Guidance on navigating complex pesticide regulations and compliance requirements.</li>
+  <!-- Second Section with Improved Content Structure -->
+  <section class="services">
+    <h2>Comprehensive Solutions for Complex Challenges</h2>
+    <p>My services are designed to address the unique needs of clients across industries, ensuring regulatory compliance and sustainable growth:</p>
+    <ul>
+      <li><strong>Regulatory Consulting:</strong> Guidance on navigating complex pesticide regulations and compliance requirements.</li>
+      <li><strong>Environmental Impact Assessments:</strong> Detailed evaluations to ensure sustainable project development.</li>
+      <li><strong>Scientific Evaluation:</strong> Expertise in plant science, phytopathology, and epidemiology to tackle intricate challenges.</li>
+      <li><strong>Tailored Pesticide Usage Reports:</strong> Receive customized reports based on our comprehensive database of Canadian pesticide usage, featuring 268 active ingredients across 8 provinces/regions. Our detailed analysis helps you understand trends, make informed decisions, and stay compliant. </li>
+      <li><strong>Pesticide Usage Visualization Tool:</strong> Leverage our interactive Shiny web application to explore pesticide usage data across multiple regions. Gain insights into active ingredient distribution, total pesticide imports, and regional trends with intuitive maps, charts, and tables—helping you make data-driven decisions and ensure a competitive edge. </li>
+      <li><strong>Mentoring & Advisory Services:</strong> Strategic advice and mentorship for professionals and organizations striving for excellence.</li>
+    </ul>
+  </section>
 
-            <li><strong>Environmental Impact Assessments:</strong> Detailed evaluations to ensure sustainable project development.</li>
+  <!-- INSERTED: SHINY.png showcase placed JUST BEFORE the chatbot section -->
+  <section class="shiny-showcase" aria-label="Shiny dashboards showcase">
+    <div class="shiny-wrapper">
+      <figure class="shiny-figure">
+        <img
+          class="shiny-image"
+          src="SHINY.png"
+          alt="Shiny dashboards that drive innovation and impact"
+          loading="lazy"
+          decoding="async">
+      </figure>
+    </div>
+  </section>
 
-            <li><strong>Scientific Evaluation:</strong> Expertise in plant science, phytopathology, and epidemiology to tackle intricate challenges.</li>
+  <!-- Chatbot section (unchanged) -->
+  <section id="regulatory-chatbot" style="background: #f6f8fa; padding: 2rem; border-radius: 12px; max-width: 800px; margin: 2rem auto; font-family: 'Segoe UI', Arial, sans-serif;">
+    <h2 style="color: #195b8a; text-align: center;">
+      Introducing our Regulatory Chatbot — What It Actually Does
+    </h2>
+    <ul style="list-style: none; padding: 0; margin: 2rem 0;">
+      <li style="margin-bottom: 1.5rem;">
+        <strong>Replies Instantly to Text or Voice Notes</strong><br>
+        <span style="color: #555;">
+          • Customers type or dictate a question on WhatsApp; the bot answers in seconds.
+        </span>
+      </li>
+      <li style="margin-bottom: 1.5rem;">
+        <strong>Fully Customizable Knowledge Base</strong><br>
+        <span style="color: #555;">
+          • We train the AI on the exact questions, answers, and policies you provide, so replies reflect your brand, procedures, &amp; applicable regulatory matters.
+        </span>
+      </li>
+      <li style="margin-bottom: 1.5rem;">
+        <strong>Multilingual Out-of-the-Box</strong><br>
+        <span style="color: #555;">
+          • French, English, Spanish, German, Russian, and more—ready from day one.
+        </span>
+      </li>
+      <li style="margin-bottom: 1.5rem;">
+        <strong>Reads &amp; Extracts from Uploaded Documents</strong><br>
+        <span style="color: #555;">
+          • Customers/staff can send photos or PDFs, etc.<br>
+          • We configure field-extraction templates tailored to the document(s) you receive.
+        </span>
+      </li>
+      <li style="margin-bottom: 1.5rem;">
+        <strong>Captures &amp; Exports Data Automatically</strong><br>
+        <span style="color: #555;">
+          • Every reply and extracted data point is logged and pushed to your chosen destination — email, spreadsheet, or CRM — in real time.
+        </span>
+      </li>
+      <li style="margin-bottom: 1.5rem;">
+        <strong>Operates 24 / 7</strong><br>
+        <span style="color: #555;">
+          • Handles routine questions day or night.
+        </span>
+      </li>
+    </ul>
+    <div style="background: #e3f0ff; border-left: 6px solid #195b8a; padding: 1rem; margin-bottom: 2rem; border-radius: 6px;">
+      <strong>Any questions? Please contact:</strong><br>
+      Patrick Stephenson at <a href="tel:8192093404" style="color: #195b8a;">819-209-3404</a> /
+      <a href="mailto:stepminer@gmail.com" style="color: #195b8a;">stepminer@gmail.com</a><br>
+      OR<br>
+      Patrick Saliba at <a href="tel:3059844584" style="color: #195b8a;">305-984-4584</a> /
+      <a href="mailto:patrick@smartentry.com" style="color: #195b8a;">patrick@smartentry.com</a>
+    </div>
+    <div style="background: #fff7ea; border-left: 6px solid #e1a100; padding: 1rem; border-radius: 6px;">
+      <strong>We have a demo set up!</strong><br>
+      Call or write to gain free test access.<br>
+      Just add the number to your contacts and call it <b>ChatBot</b> (or any name), then use WhatsApp to interact with the bot via text or voice notes.<br>
+      The demo will answer your pesticide regulatory (or any other pesticide-related) question.
+    </div>
+  </section>
 
-	<li><strong>Tailored Pesticide Usage Reports:</strong> Receive customized reports based on our comprehensive database of Canadian pesticide usage, featuring 268 active ingredients across 8 provinces/regions. Our detailed analysis helps you understand trends, make informed decisions, and stay compliant. </li>
-
-	<li><strong>Pesticide Usage Visualization Tool:</strong> Leverage our interactive Shiny web application to explore pesticide usage data across multiple regions. Gain insights into active ingredient distribution, total pesticide imports, and regional trends with intuitive maps, charts, and tables—helping you make data-driven decisions and ensure a competitive edge. </li>
-
-            <li><strong>Mentoring & Advisory Services:</strong> Strategic advice and mentorship for professionals and organizations striving for excellence.</li>
-        </ul>
-    </section>
-```
-<section id="regulatory-chatbot" style="background: #f6f8fa; padding: 2rem; border-radius: 12px; max-width: 800px; margin: 2rem auto; font-family: 'Segoe UI', Arial, sans-serif;">
-  <h2 style="color: #195b8a; text-align: center;">
-    Introducing our Regulatory Chatbot — What It Actually Does
-  </h2>
-  <ul style="list-style: none; padding: 0; margin: 2rem 0;">
-    <li style="margin-bottom: 1.5rem;">
-      <strong>Replies Instantly to Text or Voice Notes</strong><br>
-      <span style="color: #555;">
-        • Customers type or dictate a question on WhatsApp; the bot answers in seconds.
-      </span>
-    </li>
-    <li style="margin-bottom: 1.5rem;">
-      <strong>Fully Customizable Knowledge Base</strong><br>
-      <span style="color: #555;">
-        • We train the AI on the exact questions, answers, and policies you provide, so replies reflect your brand, procedures, &amp; applicable regulatory matters.
-      </span>
-    </li>
-    <li style="margin-bottom: 1.5rem;">
-      <strong>Multilingual Out-of-the-Box</strong><br>
-      <span style="color: #555;">
-        • French, English, Spanish, German, Russian, and more—ready from day one.
-      </span>
-    </li>
-    <li style="margin-bottom: 1.5rem;">
-      <strong>Reads &amp; Extracts from Uploaded Documents</strong><br>
-      <span style="color: #555;">
-        • Customers/staff can send photos or PDFs, etc.<br>
-        • We configure field-extraction templates tailored to the document(s) you receive.
-      </span>
-    </li>
-    <li style="margin-bottom: 1.5rem;">
-      <strong>Captures &amp; Exports Data Automatically</strong><br>
-      <span style="color: #555;">
-        • Every reply and extracted data point is logged and pushed to your chosen destination — email, spreadsheet, or CRM — in real time.
-      </span>
-    </li>
-    <li style="margin-bottom: 1.5rem;">
-      <strong>Operates 24 / 7</strong><br>
-      <span style="color: #555;">
-        • Handles routine questions day or night.
-      </span>
-    </li>
-  </ul>
-  <div style="background: #e3f0ff; border-left: 6px solid #195b8a; padding: 1rem; margin-bottom: 2rem; border-radius: 6px;">
-    <strong>Any questions? Please contact:</strong><br>
-    Patrick Stephenson at <a href="tel:8192093404" style="color: #195b8a;">819-209-3404</a> /
-    <a href="mailto:stepminer@gmail.com" style="color: #195b8a;">stepminer@gmail.com</a><br>
-    OR<br>
-    Patrick Saliba at <a href="tel:3059844584" style="color: #195b8a;">305-984-4584</a> /
-    <a href="mailto:patrick@smartentry.com" style="color: #195b8a;">patrick@smartentry.com</a>
-  </div>
-  <div style="background: #fff7ea; border-left: 6px solid #e1a100; padding: 1rem; border-radius: 6px;">
-    <strong>We have a demo set up!</strong><br>
-    Call or write to gain free test access.<br>
-    Just add the number to your contacts and call it <b>ChatBot</b> (or any name), then use WhatsApp to interact with the bot via text or voice notes.<br>
-    The demo will answer your pesticide regulatory (or any other pesticide-related) question.
-  </div>
-</section>
-```
-    <footer>
-        <p>&copy; 2024 Patrick Prézeau Stephenson. All rights reserved.</p>
-    </footer>
+  <footer>
+    <p>&copy; 2024 Patrick Prézeau Stephenson. All rights reserved.</p>
+  </footer>
 </body>
 </html>
-
-
-
 
