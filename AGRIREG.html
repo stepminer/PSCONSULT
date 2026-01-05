@@ -112,6 +112,18 @@
       text-decoration: underline;
       text-underline-offset: 3px;
     }
+ 
+  /* Make the announcement link readable on dark backgrounds */
+  .announcement__link,
+  .announcement__link:visited{
+    color: skyblue;
+  }
+  .announcement__link:hover,
+  .announcement__link:focus-visible{
+    color: #9ad9ff; /* lighter skyblue */
+  }
+
+    
     .announcement__meta{
       margin: .75rem 0 0 0;
       opacity: .85;
