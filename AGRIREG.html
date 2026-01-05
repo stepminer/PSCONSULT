@@ -77,6 +77,47 @@
       transform: translateZ(0);
     }
 
+    /* Announcement card */
+    .announcement{
+      padding: clamp(1rem, 3vw, 1.75rem) 0 0 0;
+    }
+    .announcement .container{
+      text-align: left;
+    }
+    .announcement__card{
+      width: min(100%, 960px);
+      margin: 0;
+      padding: clamp(1rem, 2.5vw, 1.25rem);
+      border-radius: var(--card-radius);
+      border: var(--ring);
+      box-shadow: var(--shadow-lg);
+      background:
+        radial-gradient(120% 120% at 10% 20%, rgba(0,170,255,.14), transparent 55%),
+        linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,0));
+      backdrop-filter: saturate(115%) contrast(103%);
+    }
+    .announcement__title{
+      margin: 0 0 .5rem 0;
+      font-size: clamp(1.05rem, 2.2vw, 1.25rem);
+      letter-spacing: .2px;
+    }
+    .announcement__text{
+      margin: 0 0 .75rem 0;
+      max-width: 70ch;
+    }
+    .announcement__link{
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .announcement__meta{
+      margin: .75rem 0 0 0;
+      opacity: .85;
+      font-size: .95rem;
+    }
+
     .sr-only{
       position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
     }
@@ -103,6 +144,26 @@
       </div>
     </div>
   </header>
+
+  <!-- Announcement (placed above demo image, below hero) -->
+  <section class="announcement" aria-label="Announcement">
+    <div class="container">
+      <article class="announcement__card card glass" role="note" aria-live="polite">
+        <h2 class="announcement__title">Announcement: Canadian Prairie Pesticide Market Intelligence Package (2025)</h2>
+        <p class="announcement__text">
+          The AGRIREG Team is proud to announce the completion and release of our first
+          <strong>Canadian Prairie Pesticide Market Intelligence Package (2025)</strong>.
+        </p>
+        <a
+          class="announcement__link"
+          href="https://canada-pesticide-survey-2025.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >View details and access the package</a>
+        <p class="announcement__meta">Updated: 2025</p>
+      </article>
+    </div>
+  </section>
 
   <!-- Demo image BELOW hero, not centered -->
   <section class="demo demo--below-hero" aria-label="AGRIREG Demo">
@@ -289,4 +350,4 @@
   }
   </script>
 </body>
-</html>.
+</html>
